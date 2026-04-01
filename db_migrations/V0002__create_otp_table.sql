@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS t_p8426475_nova_exploration_16.otp_codes (
+  id SERIAL PRIMARY KEY,
+  phone VARCHAR(20) NOT NULL,
+  code VARCHAR(6) NOT NULL,
+  expires_at TIMESTAMP NOT NULL,
+  used BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP DEFAULT NOW()
+);

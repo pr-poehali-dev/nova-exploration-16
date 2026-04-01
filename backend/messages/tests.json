@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Get chats (unauthorized)",
+    "method": "GET",
+    "path": "/messages/chats",
+    "expectedStatus": 401
+  }
+]

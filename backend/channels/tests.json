@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Get public channels",
+    "method": "GET",
+    "path": "/channels",
+    "expectedStatus": 200
+  }
+]

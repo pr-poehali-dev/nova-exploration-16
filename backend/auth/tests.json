@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Send OTP code",
+    "method": "POST",
+    "path": "/auth/send-code",
+    "body": { "phone": "+79001234567" },
+    "expectedStatus": 200
+  },
+  {
+    "name": "Get current user (unauthorized)",
+    "method": "GET",
+    "path": "/auth/me",
+    "expectedStatus": 401
+  }
+]
